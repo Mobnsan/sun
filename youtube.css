@@ -1,0 +1,120 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+min-height: 100vh;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(75, 75, 67); 
+border-radius: 8px;
+height: 50px;
+text-align: center;
+
+}
+nav a{
+    padding: 0 30px;
+    display:inline-block ;
+    font-size: 1em;
+    color: bisque;
+    font-weight: 500;
+    position: relative;
+    font-family: fantasy;
+    text-decoration: none;
+
+}
+.moh{
+background-color:   rgb(75, 75, 67);
+width: 30%;
+animation-name: mahito;
+animation-duration: .5s;
+
+}
+@keyframes mahito{
+from{
+width: 0;
+    background-color: rgb(75, 75, 67);
+}
+to{
+    
+
+    background-color: rgb(75, 75, 67);
+}
+}
+.mi{
+    background-color:  rgb(75, 75, 67);
+    width: 30%;
+    animation-name: mahito;
+animation-duration: .5s;
+
+    
+    }
+    @keyframes mahito{
+    from{
+    width: 0;
+        background-color: rgb(75, 75, 67);
+    }
+    to{
+    background-color: rgb(75, 75, 67);
+    
+    }
+    }
+    .mn{
+        background-color: rgb(75, 75, 67);
+        width: 30%;
+        animation-name: mahito;
+        animation-duration: .5s;
+
+        
+        }
+        @keyframes mahito{
+        from{
+        width: 0;
+            background-color: rgb(75, 75, 67);
+        }
+        to{
+            
+
+            background-color: rgb(75, 75, 67);
+        }
+        }
+        .me{
+            background-color:  rgb(75, 75, 67);
+            width: 30%;
+            animation-name: mahito;
+            animation-duration: .5s;
+            
+            }
+            @keyframes mahito{
+            from{
+            width: 0;
+                background-color: rgb(75, 75, 67);
+            }
+            to{
+                
+
+                background-color: rgb(75, 75, 67);
+            }
+            }
+header{
+background:linear-gradient(45deg, red,green) ;
+background-color: brown;
+}
+.mj{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: relative;bottom: 300px;
+width: 200px;
+}

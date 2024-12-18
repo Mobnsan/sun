@@ -1,0 +1,13 @@
+div p{
+    border: 2px solid black;
+    flex-wrap: wrap;
+    word-spacing: 15px;
+    letter-spacing: 15px;
+    width: 15px;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    text-decoration: dashed;
+    font-style: italic;
+    font-weight:lighter;
+    font-variant:small-caps;
+}

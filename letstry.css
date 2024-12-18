@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #eeeeea;
+    
+}
+.wrapper{
+    border: 1px solid red ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid red ;
+    height: 400px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: start;
+}
+.card{
+    
+    width: 80px;
+    border-radius: .78rem;
+    background-size: cover;
+    overflow:hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px rgb(0, 0, 0,8);
+}
+.card>.row{
+    color: #bbbb10;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid red ;
+}
+.card>.row>.icon{
+    background: #223;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid red ;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translate(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+.description p{
+    color: #b0b0ba;
+    padding-top:5px;
+}
+.description h4{
+    text-transform: uppercase;
+}
+input{
+    display: none;
+}
+input:checked + label{
+    width: 345px;
+}
+input:checked + label .description{
+    opacity: 1;
+    transform: translateY(0);
+}
+.card[for="c1"]{
+    background: url(https://t4.ftcdn.net/jpg/06/22/23/89/240_F_622238961_vojJhEJ1JqCWKVD4BD9QpGACGqCYX48Q.jpg);
+}
+.card[for="c2"]{
+    background: url(https://t3.ftcdn.net/jpg/06/22/23/88/240_F_622238860_MIKRKjcYl6D4Nr2sw7QT4OlCA2FXZ2b7.jpg);
+}
+.card[for="c3"]{
+    background: url(https://t3.ftcdn.net/jpg/06/22/23/88/240_F_622238817_4y1NwoPpvKF8sUZG0tWpBi3r4Q4Ernno.jpg);
+}
+.card[for="c4"]{
+    background: url(https://t4.ftcdn.net/jpg/06/22/23/89/240_F_622238963_dPQAaViKi5NMz6OwG5afWkydhUF341Xu.jpg);
+}
